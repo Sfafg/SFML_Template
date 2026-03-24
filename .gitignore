@@ -1,0 +1,59 @@
+.cmake/
+.cache/
+# Build directories
+/build/
+/build-*/
+/cmake-build-*/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+CTestTestfile.cmake
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# FetchContent / dependencies
+_deps/
+
+# Makefiles / Ninja
+Makefile
+*.ninja
+.ninja_deps
+.ninja_log
+
+# Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Static / shared libraries
+*.a
+*.so
+*.so.*
+*.dll
+*.dylib
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug / profiling
+*.dSYM/
+*.gdb
+*.gcda
+*.gcno
+*.gcov
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
